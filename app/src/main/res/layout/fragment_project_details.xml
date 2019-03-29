@@ -8,7 +8,7 @@
             type="boolean"/>
         <variable
             name="projectViewModel"
-            type="com.ryadav3.mvvmsample.viewmodel.ProjectViewModel"/>
+            type="com.ajay.kotlinmvvm.viewmodel.ProjectViewModel"/>
     </data>
     <FrameLayout
         android:layout_width="match_parent"

@@ -2,8 +2,8 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
-        <variable name="project" type="com.ryadav3.mvvmsample.service.model.Project"/>
-        <variable name="callback" type="com.ryadav3.mvvmsample.view.callback.ProjectClickCallback"/>
+        <variable name="project" type="com.ajay.kotlinmvvm.service.model.Project"/>
+        <variable name="callback" type="com.ajay.kotlinmvvm.view.callback.ProjectClickCallback"/>
     </data>
     <FrameLayout
         android:layout_width="match_parent"

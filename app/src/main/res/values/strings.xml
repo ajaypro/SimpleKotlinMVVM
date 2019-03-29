@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MVVMSample</string>
+    <string name="app_name">KotlinMVVMDataBindingRetrofit</string>
     <string name="loading_projects">Loading projects ...</string>
     <string name="projects_list">Project list</string>
     <string name="project_name">Name of the project</string>
