@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
-                android:padding="8dp" />
+                android:padding="@dimen/padding" />
 
             <EditText
                 android:id="@+id/edtPassword"
@@ -34,25 +34,36 @@
                 android:layout_height="wrap_content"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:padding="8dp"/>
+                android:padding="@dimen/padding"/>
 
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:background="@color/colorPrimary"
-                android:onClick="@{(theView) -> loginActivityCallback.onLoginClick(theView)}"
-                android:text="LOGIN" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:onClick="@{(theView) -> loginActivityCallback.onRegisterClick(theView)}"
-                android:background="@color/colorAccent"
-                android:text="REGISTER" />
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_toStartOf="@+id/register"
+                    android:background="@color/colorPrimary"
+                    android:onClick="@{(theView) -> loginActivityHandler.onLoginClick(theView)}"
+                    android:text="@string/login" android:layout_marginEnd="28dp"/>
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:onClick="@{(theView) -> loginActivityHandler.onRegisterClick(theView)}"
+                    android:background="@color/colorAccent"
+                    android:text="@string/register"
+                    android:layout_marginEnd="10dp"/>
+
+            </RelativeLayout>
 
         </LinearLayout>
 

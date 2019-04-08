@@ -9,4 +9,5 @@
     <dimen name="project_text">16sp</dimen>
     <dimen name="logo_width">150dp</dimen>
     <dimen name="logo_height">125dp</dimen>
+    <dimen name="padding">12dp</dimen>
 </resources>

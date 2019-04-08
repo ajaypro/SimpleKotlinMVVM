@@ -17,4 +17,6 @@
     <string name="open_issues">Open Issues</string>
     <string name="loading_project">Loading Project ...</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
 </resources>
